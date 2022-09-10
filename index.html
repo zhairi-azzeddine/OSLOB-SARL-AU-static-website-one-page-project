@@ -1501,7 +1501,7 @@
       var precetage = 100 / totalElement;
       if($(element).length==1)
       {
-         $("#fill").animate({width:progress+precetage+"%"},4,function(){
+         $("#fill").animate({width:progress+precetage+"%"},1,function(){
             if(document.getElementById("fill").style.width=="100%"){
                $(".mainPr").fadeOut(500);
             }
